@@ -30,3 +30,13 @@ example.json
 ```
 
 ##Get Your JSON Object
+Get the url for your JSON file after committing it to GitHub. View your JSON file on GitHub and click on the raw button that will show you the plain json. Copy the url for this raw JSON and insert it into your javascript file.
+
+```javascript
+$.getJSON("your_url_here", function(data) {
+    //your json object will be stored in data
+}
+```
+
+##HTML and CSS
+Customize your page with extra html and css. Make it unique to you.
