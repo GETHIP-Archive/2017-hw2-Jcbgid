@@ -3,8 +3,8 @@
     "lastName":"Fitzgibbons",
     "age":21,
     "picture": "https://pbs.twimg.com/profile_images/425447212626083840/DqyqYfax.jpeg",
-    "themes": [
-        {"nick": "Learner"},
-        {"nick": "Futuristic"}
+    "nickNames": [
+        {"nick": "Fitz"},
+        {"nick": "Big Money"}
     ]
 }
