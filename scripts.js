@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("#profile-name").text(data.firstName + " " + data.lastName);
     $("#age").text(data.age);
     $("#profile-picture").attr("src", data.picture);
-    $.each(data.names, function(key, value){
+    $.each(data.strengths, function(key, value){
       $("#nicknames").append("<li>" + value.theme + "</li>");
     });
   });
